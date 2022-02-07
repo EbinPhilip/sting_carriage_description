@@ -62,15 +62,15 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         carriage_base:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        carriage_base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         carriage_slider:
           Alpha: 1
           Show Axes: false
@@ -104,7 +104,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: carriage_base_link
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
